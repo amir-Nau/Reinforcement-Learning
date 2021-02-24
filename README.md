@@ -18,7 +18,8 @@ Since our cab is motivated by rewards and is going to control the cab by trial e
 
 ## State Space
 
-    In Reinforcement Learning, the agent encounters a state, and then takes action according to the state it's in.
+    In Reinforcement Learning, the agent encounters a state, 
+    and then takes action according to the state it's in.
 The State Space is the set of all possible situations our cab will encounter. 
 
 ## Action Space
