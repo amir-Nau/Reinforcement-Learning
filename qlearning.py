@@ -1,4 +1,5 @@
-''' Once we are done installing gym we can load the environment and render it
+''' To begin with, we need to install gym and other dependencies. 
+Once we are done installing gym we can load the environment and render it
 The core gym interface is env, which is the unified environment interface. The following 
 are the env methods that we will be using in this project.
 env.reset: Resets the environment and returns a random initial state.
@@ -36,6 +37,7 @@ print("State:", state)
 
 env.s = state
 env.render()
+
 '''When the environment was created, the initial reward table "P" also was created.
  We can think of it as a matrix of states x rows. '''
 
@@ -47,7 +49,7 @@ env.P[328]
 import numpy as np
 q_table = np.zeros([env.observation_space.n, env.action_space.n])
 
-%%time
+# %%time
 """Training the agent"""
 
 import random
