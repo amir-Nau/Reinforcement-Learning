@@ -35,7 +35,7 @@ These are:
 6. Dropoff
 
 We will use the Gym environment called Taxi-v3. To use that run the following command on the terminal or Jupiter notebook. 
-    !pip install cmake 'gym[atari]' scipy
+    !pip install cmake 'gym[atari]' scipy.
     
 
 
